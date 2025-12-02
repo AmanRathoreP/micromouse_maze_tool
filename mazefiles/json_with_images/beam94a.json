@@ -4,7 +4,7 @@
     "Columns": 16,
     "Seed": null,
     "Algorithm": "Unknown",
-    "generatedAtUtc": "2025-12-01T15:16:34.787622Z",
+    "generatedAtUtc": "2025-12-02T08:53:20.159296Z",
     "variant": "custom",
     "AppVersion": "1.0.0",
     "DeveloperName": "Aman Rathore",
@@ -12,7 +12,43 @@
     "ToolWebsite": "https://mazegenerator.amanr.me",
     "ToolRepository": "https://github.com/AmanRathoreP/micromouse_maze_tool",
     "MazeRepository": "https://github.com/AmanRathoreP/micromouse_maze_tool/tree/master/mazefiles/binary",
-    "SourceMazeFile": "https://github.com/AmanRathoreP/micromouse_maze_tool/blob/master/mazefiles/binary/beam94a.maz"
+    "SourceMazeFile": "https://github.com/AmanRathoreP/micromouse_maze_tool/blob/master/mazefiles/binary/beam94a.maz",
+    "formats": [
+      "JPEG",
+      "JSON"
+    ],
+    "cellSize": 40,
+    "wallThickness": 3,
+    "ShowStartEndCells": true,
+    "startCells": [
+      {
+        "Row": 1,
+        "Column": 1,
+        "index": 1
+      }
+    ],
+    "endCells": [
+      {
+        "Row": 9,
+        "Column": 7,
+        "index": 135
+      },
+      {
+        "Row": 9,
+        "Column": 8,
+        "index": 136
+      },
+      {
+        "Row": 8,
+        "Column": 7,
+        "index": 119
+      },
+      {
+        "Row": 8,
+        "Column": 8,
+        "index": 120
+      }
+    ]
   },
   "grid": {
     "Rows": 16,
@@ -186,7 +222,7 @@
       {
         "Row": 1,
         "Column": 1,
-        "CellType": "normal",
+        "CellType": "start",
         "walls": {
           "HasTopWall": false,
           "HasRightWall": true,
@@ -1154,7 +1190,7 @@
       {
         "Row": 9,
         "Column": 7,
-        "CellType": "normal",
+        "CellType": "end",
         "walls": {
           "HasTopWall": true,
           "HasRightWall": false,
@@ -1165,7 +1201,7 @@
       {
         "Row": 8,
         "Column": 7,
-        "CellType": "normal",
+        "CellType": "end",
         "walls": {
           "HasTopWall": false,
           "HasRightWall": false,
@@ -1330,7 +1366,7 @@
       {
         "Row": 9,
         "Column": 8,
-        "CellType": "normal",
+        "CellType": "end",
         "walls": {
           "HasTopWall": true,
           "HasRightWall": true,
@@ -1341,7 +1377,7 @@
       {
         "Row": 8,
         "Column": 8,
-        "CellType": "normal",
+        "CellType": "end",
         "walls": {
           "HasTopWall": false,
           "HasRightWall": false,
